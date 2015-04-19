@@ -17,6 +17,7 @@ package brut.androlib;
 
 public class ApkOptions {
     public boolean forceBuildAll = false;
+    public boolean forceDeleteFramework = false;
     public boolean debugMode = false;
     public boolean verbose = false;
     public boolean copyOriginalFiles = false;
